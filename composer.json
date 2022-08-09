@@ -1,0 +1,11 @@
+{
+    "name": "hexlet/code",
+    "type": "project",
+    "authors": [
+        {
+            "name": "kaivladimirv",
+            "email": "kaivladimirv@gmail.com"
+        }
+    ],
+    "require": {}
+}
