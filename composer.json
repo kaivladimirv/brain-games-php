@@ -7,5 +7,7 @@
             "email": "kaivladimirv@gmail.com"
         }
     ],
+    "description": "Console game 'Brain Games'",
+    "license": "MIT",
     "require": {}
 }
