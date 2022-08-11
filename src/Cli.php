@@ -11,6 +11,6 @@ function run(): void
 {
     line('Welcome to the Brain Games!');
 
-    $name = prompt('May I have your name?', '', ' ');
-    line("Hello, $name!");
+    $userName = prompt('May I have your name?', '', ' ');
+    line("Hello, $userName!");
 }
