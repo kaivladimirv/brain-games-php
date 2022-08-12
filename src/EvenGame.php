@@ -16,7 +16,7 @@ function run(): void
 
     line('Answer "yes" if the number is even, otherwise answer "no".');
 
-    foreach (getEvenNumbers() as $number) {
+    foreach (getNumbers() as $number) {
         line("Question: $number");
 
         $expectedAnswer = ($number % 2 === 0 ? 'yes' : 'no');
@@ -34,7 +34,7 @@ function run(): void
     line("Congratulations, $userName!");
 }
 
-function getEvenNumbers(): array
+function getNumbers(): array
 {
     return [
         15,
