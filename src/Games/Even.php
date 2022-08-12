@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace BrainGames\Games\EvenGame;
+namespace BrainGames\Games\Even;
 
 use function cli\line;
 use function cli\prompt;
