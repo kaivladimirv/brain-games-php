@@ -16,7 +16,7 @@
     "autoload": {
         "files": [
             "src/Cli.php",
-            "src/EvenGame.php"
+            "src/Games/EvenGame.php"
         ]
     },
     "require": {
