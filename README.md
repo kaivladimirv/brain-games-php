@@ -4,7 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6a85cca81fd5662c8c25/maintainability)](https://codeclimate.com/github/kaivladimirv/php-project-lvl1/maintainability)
 
 ## Examples
-___
+
 Even
 [![asciicast](https://asciinema.org/a/3Cl8LBmMF7Lwex2ekKQxzamRr.svg)](https://asciinema.org/a/3Cl8LBmMF7Lwex2ekKQxzamRr)
 
