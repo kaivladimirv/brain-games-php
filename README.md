@@ -10,3 +10,6 @@ Even
 
 Calc
 [![asciicast](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora.svg)](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora)
+
+Gcd
+[![asciicast](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5.svg)](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5)
