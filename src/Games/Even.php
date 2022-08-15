@@ -4,41 +4,51 @@ declare(strict_types=1);
 
 namespace BrainGames\Games\Even;
 
+use function BrainGames\Engine\askUserName;
+use function BrainGames\Engine\showWelcome;
+use function BrainGames\Engine\startGame;
 use function cli\line;
-use function cli\prompt;
+
+use const BrainGames\Engine\NUMBER_OF_ROUNDS;
 
 function run(): void
 {
-    line("\nWelcome to the Brain Games!");
+    showWelcome();
 
-    $userName = prompt('May I have your name?', '', ' ');
-    line("Hello, $userName!");
+    $userName = askUserName();
 
     line('Answer "yes" if the number is even, otherwise answer "no".');
 
-    foreach (getNumbers() as $number) {
-        line("Question: $number");
-
-        $expectedAnswer = ($number % 2 === 0 ? 'yes' : 'no');
-        $receivedAnswer = prompt('Your answer');
-
-        if ($expectedAnswer === $receivedAnswer) {
-            line('Correct!');
-        } else {
-            line("'$receivedAnswer' is wrong answer ;(. Correct answer was '$expectedAnswer'.");
-            line("Let's try again, $userName!");
-            exit;
-        }
-    }
-
-    line("Congratulations, $userName!");
+    $questions = getQuestions(NUMBER_OF_ROUNDS);
+    startGame($userName, $questions);
 }
 
-function getNumbers(): array
+function getQuestions(int $questionCount): array
+{
+    $questions = [];
+
+    foreach (getRandomNumbers($questionCount) as $number) {
+        $questions[] = buildQuestion($number);
+    }
+
+    return $questions;
+}
+
+function buildQuestion(int $number): array
 {
     return [
-        15,
-        6,
-        7,
+        'questionText'   => "$number",
+        'expectedAnswer' => ($number % 2 === 0 ? 'yes' : 'no'),
     ];
+}
+
+function getRandomNumbers(int $count): array
+{
+    $numbers = [];
+
+    for ($i = 0; $i < $count; $i++) {
+        $numbers[] = rand(1, 999);
+    }
+
+    return $numbers;
 }
