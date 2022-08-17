@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace BrainGames\Cli;
 
-use function cli\line;
-use function cli\prompt;
+use function BrainGames\Engine\askUserName;
+use function BrainGames\Engine\showWelcome;
 
 function run(): void
 {
-    line('Welcome to the Brain Games!');
+    showWelcome();
 
-    $userName = prompt('May I have your name?', '', ' ');
-    line("Hello, $userName!");
+    askUserName();
 }
