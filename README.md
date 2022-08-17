@@ -16,3 +16,6 @@ Gcd
 
 Progression
 [![asciicast](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36.svg)](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36)
+
+Prime
+[![asciicast](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4.svg)](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4)
