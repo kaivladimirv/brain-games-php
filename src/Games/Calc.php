@@ -20,6 +20,7 @@ function run(): void
     line('What is the result of the expression?');
 
     $questions = getQuestions(NUMBER_OF_ROUNDS);
+
     startGame($userName, $questions);
 }
 

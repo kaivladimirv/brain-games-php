@@ -20,6 +20,7 @@ function run(): void
     line('Find the greatest common divisor of given numbers.');
 
     $questions = getQuestions(NUMBER_OF_ROUNDS);
+
     startGame($userName, $questions);
 }
 

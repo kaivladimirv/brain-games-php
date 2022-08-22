@@ -25,6 +25,7 @@ function run(): void
     line('What number is missing in the progression?');
 
     $questions = getQuestions(NUMBER_OF_ROUNDS);
+
     startGame($userName, $questions);
 }
 

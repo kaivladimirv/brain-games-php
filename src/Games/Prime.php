@@ -20,6 +20,7 @@ function run(): void
     line('Answer "yes" if given number is prime. Otherwise answer "no".');
 
     $questions = getQuestions(NUMBER_OF_ROUNDS);
+
     startGame($userName, $questions);
 }
 

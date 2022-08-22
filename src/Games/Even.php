@@ -20,6 +20,7 @@ function run(): void
     line('Answer "yes" if the number is even, otherwise answer "no".');
 
     $questions = getQuestions(NUMBER_OF_ROUNDS);
+
     startGame($userName, $questions);
 }
 
