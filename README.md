@@ -16,17 +16,17 @@ It is a project of PHP courses from the [Hexlet](https://hexlet.io/) educational
 
 ## Examples
 
-Even
+Definition of an even number.
 [![asciicast](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy.svg)](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy)
 
-Calc
+Calculator. Arithmetic expressions to be evaluated.
 [![asciicast](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora.svg)](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora)
 
-Gcd
+Finding the Greatest Common Divisor.
 [![asciicast](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5.svg)](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5)
 
-Progression
+Progression. Search for missing numbers in a sequence of numbers.
 [![asciicast](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36.svg)](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36)
 
-Prime
+Definition of a prime number.
 [![asciicast](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4.svg)](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4)
