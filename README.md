@@ -17,7 +17,7 @@ It is a project of PHP courses from the [Hexlet](https://hexlet.io/) educational
 ## Examples
 
 Even
-[![asciicast](https://asciinema.org/a/3Cl8LBmMF7Lwex2ekKQxzamRr.svg)](https://asciinema.org/a/3Cl8LBmMF7Lwex2ekKQxzamRr)
+[![asciicast](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy.svg)](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy)
 
 Calc
 [![asciicast](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora.svg)](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora)
