@@ -29,18 +29,23 @@ function getQuestions(int $questionCount): array
     $questions = [];
 
     foreach (getRandomNumbers($questionCount) as $number) {
-        $questions[] = buildQuestion($number);
+        $questions[] = buildQuestion($number, isEven($number));
     }
 
     return $questions;
 }
 
-function buildQuestion(int $number): array
+function buildQuestion(int $number, bool $isEven): array
 {
     return [
         'questionText'   => "$number",
-        'expectedAnswer' => ($number % 2 === 0 ? 'yes' : 'no'),
+        'expectedAnswer' => ($isEven ? 'yes' : 'no'),
     ];
+}
+
+function isEven(int $number): bool
+{
+    return $number % 2 === 0;
 }
 
 function getRandomNumbers(int $count): array
