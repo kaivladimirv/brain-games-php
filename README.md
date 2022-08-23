@@ -29,17 +29,33 @@ $ make install
 [![asciicast](https://asciinema.org/a/PghiRcbqU5vysfptRizVBNQvs.svg)](https://asciinema.org/a/PghiRcbqU5vysfptRizVBNQvs)
 
 ## Usage
-Definition of an even number.
-[![asciicast](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy.svg)](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy)
 
-Calculator. Arithmetic expressions to be evaluated.
-[![asciicast](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora.svg)](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora)
+1. Definition of an even number.
+    ```
+    $ make brain-even
+    ```
+    [![asciicast](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy.svg)](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy)
 
-Finding the Greatest Common Divisor.
-[![asciicast](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5.svg)](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5)
+2. Calculator. Arithmetic expressions to be evaluated.
+    ```
+    $ make brain-calc
+    ```
+    [![asciicast](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora.svg)](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora)
 
-Progression. Search for missing numbers in a sequence of numbers.
-[![asciicast](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36.svg)](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36)
+3. Finding the Greatest Common Divisor.
+    ```
+    $ make brain-gcd
+    ```
+    [![asciicast](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5.svg)](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5)
 
-Definition of a prime number.
-[![asciicast](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4.svg)](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4)
+4. Progression. Search for missing numbers in a sequence of numbers.
+    ```
+    $ make brain-progression
+    ```
+    [![asciicast](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36.svg)](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36)
+
+5. Definition of a prime number.
+    ```
+    $ make brain-prime
+    ```
+    [![asciicast](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4.svg)](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4)
