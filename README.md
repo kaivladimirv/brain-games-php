@@ -14,6 +14,10 @@ Games:
 
 It is a project of PHP courses from the [Hexlet](https://hexlet.io/) educational portal.
 
+## Requirements
+* PHP 8.0+
+* Composer
+
 ## Examples
 
 Definition of an even number.
