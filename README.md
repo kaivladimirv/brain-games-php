@@ -34,28 +34,28 @@ $ make install
     ```
     $ make brain-even
     ```
-    [![asciicast](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy.svg)](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy)
+   [![asciicast](https://asciinema.org/a/8ONfjWWktfyLNSD5mHzZQI67H.svg)](https://asciinema.org/a/8ONfjWWktfyLNSD5mHzZQI67H)
 
 2. Calculator. Arithmetic expressions to be evaluated.
     ```
     $ make brain-calc
     ```
-    [![asciicast](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora.svg)](https://asciinema.org/a/vBKoshSYFcqIZCg2OF5fKtora)
+   [![asciicast](https://asciinema.org/a/gWR0Va2f6hjgYnpM4YfOGZ4cw.svg)](https://asciinema.org/a/gWR0Va2f6hjgYnpM4YfOGZ4cw)
 
 3. Finding the Greatest Common Divisor.
     ```
     $ make brain-gcd
     ```
-    [![asciicast](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5.svg)](https://asciinema.org/a/Icf1cZ6V16wcFBVC4Du1h5JE5)
+   [![asciicast](https://asciinema.org/a/Q1lTm9HSmxQsuVMKOMx48D3O1.svg)](https://asciinema.org/a/Q1lTm9HSmxQsuVMKOMx48D3O1)
 
 4. Progression. Search for missing numbers in a sequence of numbers.
     ```
     $ make brain-progression
     ```
-    [![asciicast](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36.svg)](https://asciinema.org/a/NquDrbgPncfD4rhdSrBp9xg36)
+   [![asciicast](https://asciinema.org/a/TWpUdqEvdTvHbZZzcqHNAMagB.svg)](https://asciinema.org/a/TWpUdqEvdTvHbZZzcqHNAMagB)
 
 5. Definition of a prime number.
     ```
     $ make brain-prime
     ```
-    [![asciicast](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4.svg)](https://asciinema.org/a/QgVqzCIivLFhb675F4ddIOeH4)
+   [![asciicast](https://asciinema.org/a/SpE5xaA5u2V9elaDgvnBngDsd.svg)](https://asciinema.org/a/SpE5xaA5u2V9elaDgvnBngDsd)
