@@ -18,6 +18,16 @@ It is a project of PHP courses from the [Hexlet](https://hexlet.io/) educational
 * PHP 8.0+
 * Composer
 
+## Installation
+```
+$ git clone https://github.com/kaivladimirv/php-project-lvl1.git
+
+$ cd php-project-lvl1
+
+$ make install
+```
+[![asciicast](https://asciinema.org/a/PghiRcbqU5vysfptRizVBNQvs.svg)](https://asciinema.org/a/PghiRcbqU5vysfptRizVBNQvs)
+
 ## Usage
 Definition of an even number.
 [![asciicast](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy.svg)](https://asciinema.org/a/OORYD63wrnN9fH4L6Qtf7HnHy)
