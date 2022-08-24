@@ -1,6 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/kaivladimirv/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kaivladimirv/php-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6a85cca81fd5662c8c25/maintainability)](https://codeclimate.com/github/kaivladimirv/php-project-lvl1/maintainability)
+<a href="https://github.com/kaivladimirv/php-project-lvl1/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/kaivladimirv/php-project-lvl1" alt="Read License"></a>
+<a href="https://php.net"><img src="https://img.shields.io/badge/php-8.0%2B-%238892BF" alt="PHP Programming Language"></a>
+
 
 ## Brain games
 This is a set of five console games based on popular mobile brain training apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
