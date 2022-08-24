@@ -59,3 +59,7 @@ $ make install
     $ make brain-prime
     ```
    [![asciicast](https://asciinema.org/a/SpE5xaA5u2V9elaDgvnBngDsd.svg)](https://asciinema.org/a/SpE5xaA5u2V9elaDgvnBngDsd)
+
+## License
+The Bryan Games project is licensed for use under the MIT License (MIT). 
+Please see [LICENSE](/LICENSE) for more information.
