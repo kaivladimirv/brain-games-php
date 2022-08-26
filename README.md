@@ -1,5 +1,6 @@
 [![Actions Status](https://github.com/kaivladimirv/php-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/kaivladimirv/php-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6a85cca81fd5662c8c25/maintainability)](https://codeclimate.com/github/kaivladimirv/php-project-lvl1/maintainability)
+[![PHP Linter](https://github.com/kaivladimirv/php-project-lvl1/actions/workflows/workflow.yml/badge.svg)](https://github.com/kaivladimirv/php-project-lvl1/actions/workflows/workflow.yml)
 <a href="https://github.com/kaivladimirv/php-project-lvl1/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/kaivladimirv/php-project-lvl1" alt="Read License"></a>
 <a href="https://php.net"><img src="https://img.shields.io/badge/php-8.0%2B-%238892BF" alt="PHP Programming Language"></a>
 
