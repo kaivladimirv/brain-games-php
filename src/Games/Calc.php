@@ -72,7 +72,7 @@ function getRandomOperation(): string
 
 function calcExpectedAnswer(string $operation, array $numberPair): ?int
 {
-    return match($operation) {
+    return match ($operation) {
         '+' => $numberPair[0] + $numberPair[1],
         '-' => $numberPair[0] - $numberPair[1],
         '*' => $numberPair[0] * $numberPair[1],
