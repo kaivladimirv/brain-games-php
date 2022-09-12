@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace BrainGames\Games\Prime;
 
 use function BrainGames\Engine\askUserName;
+use function BrainGames\Engine\isEven;
 use function BrainGames\Engine\showWelcome;
 use function BrainGames\Engine\startGame;
 use function cli\line;
@@ -68,7 +69,7 @@ function isPrimeNumber(int $number): bool
 {
     if ($number === 2) {
         return true;
-    } elseif (($number === 1) or ($number % 2 === 0)) {
+    } elseif (($number === 1) or isEven($number)) {
         return false;
     }
 

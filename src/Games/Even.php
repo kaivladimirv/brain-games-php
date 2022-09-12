@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace BrainGames\Games\Even;
 
 use function BrainGames\Engine\askUserName;
+use function BrainGames\Engine\isEven;
 use function BrainGames\Engine\showWelcome;
 use function BrainGames\Engine\startGame;
 use function cli\line;
@@ -41,11 +42,6 @@ function buildQuestion(int $number, bool $isEven): array
         'questionText'   => "$number",
         'expectedAnswer' => ($isEven ? 'yes' : 'no'),
     ];
-}
-
-function isEven(int $number): bool
-{
-    return $number % 2 === 0;
 }
 
 function getRandomNumbers(int $count): array

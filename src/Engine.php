@@ -55,3 +55,8 @@ function compareAnswers(mixed $expectedAnswer, mixed $receivedAnswer): bool
         return false;
     }
 }
+
+function isEven(int $number): bool
+{
+    return $number % 2 === 0;
+}
